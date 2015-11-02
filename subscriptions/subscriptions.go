@@ -1,3 +1,7 @@
+/*
+Package subscriptions is a trie based in memory subscription manager for pub-sub implementations.
+It follows the logic described in the MQTT 3.1.1 protocol. WIP.
+*/
 package subscriptions
 
 import (

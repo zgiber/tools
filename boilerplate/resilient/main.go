@@ -46,7 +46,7 @@ func main() {
 func runService(c chan string) (err error) {
 
 	// channel for fatal errors
-	// quit if receive from this.
+	// return if receive from this.
 	e := make(chan error)
 
 	go doSomething1(c, e)
